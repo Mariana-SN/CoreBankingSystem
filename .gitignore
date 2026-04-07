@@ -7,9 +7,16 @@ obj/
 *.snupkg
 TestResults/
 
+project.assets.json
+*.nuget.dgspec.json
+project.nuget.cache
+*.nuget.g.props
+*.nuget.g.targets
+
 .env
 .env.local
 appsettings.*.json
-!appsettings.Development.json
+
+**/Migrations/
 
 docker-compose.override.yml

@@ -8,13 +8,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CoreBankingSystem.Domain\CoreBankingSystem.Domain.csproj" />
+    <ProjectReference Include="..\CoreBankingSystem.Shared\CoreBankingSystem.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Common\" />
-    <Folder Include="DTOs\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
+    <PackageReference Include="MediatR" Version="14.1.0" />
   </ItemGroup>
 
 </Project>
