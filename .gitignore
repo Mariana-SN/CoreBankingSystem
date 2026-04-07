@@ -1,0 +1,15 @@
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.nupkg
+*.snupkg
+TestResults/
+
+.env
+.env.local
+appsettings.*.json
+!appsettings.Development.json
+
+docker-compose.override.yml
